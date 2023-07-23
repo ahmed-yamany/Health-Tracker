@@ -1,0 +1,18 @@
+import Foundation
+
+// This file is generated automatically, Don't ever try to change it 🔫
+// MARK: - Images
+
+// swiftlint:disable all
+extension String {
+    static var images: Images { Images() }
+	struct Images {
+        {% for image in catalogs.first.assets %}
+            var {{image.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: String {
+                "{{ image.name }}"
+            }
+        {% endfor %}
+    }
+  
+}
+// swiftlint:enable all

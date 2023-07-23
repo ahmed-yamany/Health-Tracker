@@ -1,0 +1,16 @@
+import Foundation
+
+// this is automatic generated file please don't edit it 🗡️
+// MARK: - Colors
+
+extension String {
+    static var colors: Colors.Type { Colors.self }
+	
+    struct Colors {
+  	{% for color in catalogs.first.assets %}
+        static var {{color.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: String {
+     	    "{{ color.name }}"
+    	}
+  	{% endfor %}
+    }
+}

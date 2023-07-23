@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  Health Tracker
+
+  Created by Ahmed Yamany on 17/07/2023.
+  
+*/
+// MARK: - Onboarding
+
+// MARK: - Splash
+"splash.cooking.title" = "Track your Food";
+"splash.cooking.subtitle" = "You should know what you eat";
+"splash.gym.title" = "Organize your Activites";
+"splash.gym.subtitle" = "You should Go The Gym today";
+"splash.sleeping.title" = "Night Island";
+"splash.sleeping.subtitle" = "Explore the new king of sleep.";
+"splash.reminder.title" = "Set your Reminder";
+"splash.reminder.subtitle" = "You should manage your time";
+"splash.button.title" = "Start";
+
+// MARK: - Name
+"name.title" = "What is your ";
+"name.title.colored" = "name?";
+"name.subtitle" = "We will use this data to make a better profile for you";
+"name.textfield.placeholder" = "Enter Name";
+// MARK: - Goal
+"goal.title" = "What is your ";
+"goal.title.colored" = "goal?";
+"goal.subtitle" = "We will use this data to make a better profile for you";
+// MARK: - Gender
+"gender.title" = "What is your ";
+"gender.title.colored" = "gender?";
+"gender.subtitle" = "We will use this data to make a better profile for you";
+"gender.male" = "Male";
+"gender.female" = "Female";
+// MARK: - Gender
+"birthDate.title" = "Your ";
+"birthDate.title.colored" = "date of birth";
+"birthDate.subtitle" = "We will use this data to make a better profile for you";
+// MARK: - Gender
+"tall.title" = "Select your ";
+"tall.title.colored" = "tall";
+"tall.subtitle" = "We will use this data to make a better profile for you";
+"tall.textfield.placeholder" = "Enter your Tall";
+// MARK: - profile Image
+"profileImage.title" = "Select ";
+"profileImage.title.colored" = "Profile Image";
+"profileImage.subtitle" = "";
+
