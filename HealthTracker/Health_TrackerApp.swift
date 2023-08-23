@@ -16,6 +16,7 @@ struct Health_TrackerApp: App {
         WindowGroup {
             coordinator.view(router: true)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .preferredColorScheme(ColorScheme(.light))
         }
     }
 }

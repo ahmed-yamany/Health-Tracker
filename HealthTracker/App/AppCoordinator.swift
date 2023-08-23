@@ -22,7 +22,7 @@ struct AppCoordinator: Coordinator {
     typealias Router = Bool
 
     @ViewBuilder
-    public func view(router: Router) -> some View {
+    public func view(router: Bool) -> some View {
         AppMainView()
     }
     

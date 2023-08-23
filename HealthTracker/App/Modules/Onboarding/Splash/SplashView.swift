@@ -64,9 +64,6 @@ struct SplashView: View {
         .background(Color(.colors.appBackgroundColor))
         .foregroundColor(Color(.colors.primaryTextColor))
         .fullScreenCover(isPresented: $shouldCoordinate, content: { coordinator.view(router: .splash) })
-        .onAppear {
-            print("count \(users.count)")
-        }
     }
     
     @ViewBuilder

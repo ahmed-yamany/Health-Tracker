@@ -89,16 +89,44 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "splash.gym.title", fallback: "Organize your Activites")
     }
     internal enum Reminder {
-      /// You should manage your time
-      internal static let subtitle = L10n.tr("Localizable", "splash.reminder.subtitle", fallback: "You should manage your time")
-      /// Set your Reminder
-      internal static let title = L10n.tr("Localizable", "splash.reminder.title", fallback: "Set your Reminder")
+      /// organize, plan, and collaborate on tasks
+      internal static let subtitle = L10n.tr("Localizable", "splash.reminder.subtitle", fallback: "organize, plan, and collaborate on tasks")
+      /// Manage your tasks
+      internal static let title = L10n.tr("Localizable", "splash.reminder.title", fallback: "Manage your tasks")
     }
     internal enum Sleeping {
       /// Explore the new king of sleep.
       internal static let subtitle = L10n.tr("Localizable", "splash.sleeping.subtitle", fallback: "Explore the new king of sleep.")
       /// Night Island
       internal static let title = L10n.tr("Localizable", "splash.sleeping.title", fallback: "Night Island")
+    }
+  }
+  internal enum Tabview {
+    internal enum Reminder {
+      internal enum AddTodoGroup {
+        /// Add Todo Group
+        internal static let navigationtitle = L10n.tr("Localizable", "tabview.reminder.addTodoGroup.navigationtitle", fallback: "Add Todo Group")
+        /// Save
+        internal static let saveButton = L10n.tr("Localizable", "tabview.reminder.addTodoGroup.saveButton", fallback: "Save")
+        internal enum Textfiled {
+          /// Enter Todo Group Title
+          internal static let placeholder = L10n.tr("Localizable", "tabview.reminder.addTodoGroup.textfiled.placeholder", fallback: "Enter Todo Group Title")
+          /// Title
+          internal static let title = L10n.tr("Localizable", "tabview.reminder.addTodoGroup.textfiled.title", fallback: "Title")
+        }
+      }
+      internal enum Search {
+        /// Search tasks
+        internal static let placeholder = L10n.tr("Localizable", "tabview.reminder.search.placeholder", fallback: "Search tasks")
+      }
+      internal enum Title {
+        /// Tasks
+        internal static let tasks = L10n.tr("Localizable", "tabview.reminder.title.tasks", fallback: "Tasks")
+        /// today
+        internal static let today = L10n.tr("Localizable", "tabview.reminder.title.today", fallback: "today")
+        /// You have
+        internal static let youHave = L10n.tr("Localizable", "tabview.reminder.title.youHave", fallback: "You have")
+      }
     }
   }
   internal enum Tall {

@@ -34,8 +34,17 @@
 		EE6A0CA12A6D36280069C1A9 /* UIColors.Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A0C9E2A6D36280069C1A9 /* UIColors.Generated.swift */; };
 		EE6A0CA92A6D36740069C1A9 /* UIFont+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A0CA82A6D36740069C1A9 /* UIFont+Style.swift */; };
 		EE6A0CAC2A6D36A70069C1A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CAE2A6D36A70069C1A9 /* Localizable.strings */; };
+		EE8B290C2A75497300963176 /* AddTodoGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B290B2A75497300963176 /* AddTodoGroupView.swift */; };
 		EE939A562A6D4F9200FD297F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE939A552A6D4F9200FD297F /* AppCoordinator.swift */; };
 		EE9522392A6D618800B8DC4A /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9522382A6D618800B8DC4A /* AppMainView.swift */; };
+		EED152F02A7656690066783F /* textfield+applyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED152EF2A7656690066783F /* textfield+applyStyle.swift */; };
+		EED152F22A76588C0066783F /* AddTodoGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED152F12A76588C0066783F /* AddTodoGroupViewModel.swift */; };
+		EED152F42A765A530066783F /* ReminderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED152F32A765A530066783F /* ReminderCoordinator.swift */; };
+		EEDE5AB12A73F1F6005BCE35 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE5AB02A73F1F6005BCE35 /* ReminderView.swift */; };
+		EEDE5AB32A73F21F005BCE35 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE5AB22A73F21F005BCE35 /* ActivitiesView.swift */; };
+		EEDE5AB52A73F232005BCE35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE5AB42A73F232005BCE35 /* HomeView.swift */; };
+		EEDE5AB72A73F246005BCE35 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE5AB62A73F246005BCE35 /* SleepView.swift */; };
+		EEDE5AB92A73F25A005BCE35 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE5AB82A73F25A005BCE35 /* FoodView.swift */; };
 		EEE6E8312A6D33740062A5F3 /* Health_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E8302A6D33740062A5F3 /* Health_TrackerApp.swift */; };
 		EEE6E8382A6D33740062A5F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE6E8372A6D33740062A5F3 /* Preview Assets.xcassets */; };
 		EEE6E83A2A6D33740062A5F3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E8392A6D33740062A5F3 /* Persistence.swift */; };
@@ -46,6 +55,8 @@
 		EEE6E8602A6D33C20062A5F3 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EEE6E85F2A6D33C20062A5F3 /* swiftgen.yml */; };
 		EEE6E8622A6D33D10062A5F3 /* SwiftGen-Templates in Resources */ = {isa = PBXBuildFile; fileRef = EEE6E8612A6D33D10062A5F3 /* SwiftGen-Templates */; };
 		EEE6E8692A6D340A0062A5F3 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = EEE6E8682A6D340A0062A5F3 /* Factory */; };
+		EEEC5F962A73FD2300A1E376 /* RoundedCourner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEC5F952A73FD2300A1E376 /* RoundedCourner.swift */; };
+		EEEC5F982A73FD3B00A1E376 /* cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEC5F972A73FD3B00A1E376 /* cornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +105,17 @@
 		EE6A0CA82A6D36740069C1A9 /* UIFont+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Style.swift"; sourceTree = "<group>"; };
 		EE6A0CAD2A6D36A70069C1A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE6A0CAF2A6D36B00069C1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE8B290B2A75497300963176 /* AddTodoGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoGroupView.swift; sourceTree = "<group>"; };
 		EE939A552A6D4F9200FD297F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		EE9522382A6D618800B8DC4A /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
+		EED152EF2A7656690066783F /* textfield+applyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "textfield+applyStyle.swift"; sourceTree = "<group>"; };
+		EED152F12A76588C0066783F /* AddTodoGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoGroupViewModel.swift; sourceTree = "<group>"; };
+		EED152F32A765A530066783F /* ReminderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCoordinator.swift; sourceTree = "<group>"; };
+		EEDE5AB02A73F1F6005BCE35 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		EEDE5AB22A73F21F005BCE35 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		EEDE5AB42A73F232005BCE35 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEDE5AB62A73F246005BCE35 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		EEDE5AB82A73F25A005BCE35 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		EEE6E82D2A6D33740062A5F3 /* Health Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE6E8302A6D33740062A5F3 /* Health_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_TrackerApp.swift; sourceTree = "<group>"; };
 		EEE6E8372A6D33740062A5F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -108,6 +128,8 @@
 		EEE6E8522A6D33740062A5F3 /* Health_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEE6E85F2A6D33C20062A5F3 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		EEE6E8612A6D33D10062A5F3 /* SwiftGen-Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SwiftGen-Templates"; sourceTree = "<group>"; };
+		EEEC5F952A73FD2300A1E376 /* RoundedCourner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCourner.swift; sourceTree = "<group>"; };
+		EEEC5F972A73FD3B00A1E376 /* cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cornerRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				EE2A0D552A6D39DC003114F6 /* onAnimationCompleted.swift */,
+				EEEC5F972A73FD3B00A1E376 /* cornerRadius.swift */,
+				EED152EF2A7656690066783F /* textfield+applyStyle.swift */,
 			);
 			path = "Custom Modifiers";
 			sourceTree = "<group>";
@@ -162,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				EE2A0D532A6D39D0003114F6 /* TabBarCurveShape.swift */,
+				EEEC5F952A73FD2300A1E376 /* RoundedCourner.swift */,
 			);
 			path = "Custom Shapes";
 			sourceTree = "<group>";
@@ -177,9 +202,9 @@
 		EE2A0D212A6D38BF003114F6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EE9522382A6D618800B8DC4A /* AppMainView.swift */,
 				EE2A0D252A6D38DF003114F6 /* Onboarding */,
 				EE2A0D222A6D38CC003114F6 /* Main TabView */,
-				EE9522382A6D618800B8DC4A /* AppMainView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -188,6 +213,11 @@
 			isa = PBXGroup;
 			children = (
 				EE2A0D752A6D3A64003114F6 /* MainTabView.swift */,
+				EEDE5AAF2A73F1E7005BCE35 /* Food */,
+				EEDE5AAE2A73F1E1005BCE35 /* Sleep */,
+				EEDE5AAD2A73F1D7005BCE35 /* Home */,
+				EEDE5AAC2A73F1CE005BCE35 /* Activities */,
+				EEDE5AAB2A73F1BF005BCE35 /* Reminder */,
 			);
 			path = "Main TabView";
 			sourceTree = "<group>";
@@ -289,6 +319,49 @@
 				EE6A0CA82A6D36740069C1A9 /* UIFont+Style.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EEDE5AAB2A73F1BF005BCE35 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				EED152F12A76588C0066783F /* AddTodoGroupViewModel.swift */,
+				EED152F32A765A530066783F /* ReminderCoordinator.swift */,
+				EEDE5AB02A73F1F6005BCE35 /* ReminderView.swift */,
+				EE8B290B2A75497300963176 /* AddTodoGroupView.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		EEDE5AAC2A73F1CE005BCE35 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE5AB22A73F21F005BCE35 /* ActivitiesView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		EEDE5AAD2A73F1D7005BCE35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE5AB42A73F232005BCE35 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EEDE5AAE2A73F1E1005BCE35 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE5AB62A73F246005BCE35 /* SleepView.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		EEDE5AAF2A73F1E7005BCE35 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE5AB82A73F25A005BCE35 /* FoodView.swift */,
+			);
+			path = Food;
 			sourceTree = "<group>";
 		};
 		EEE6E8242A6D33740062A5F3 = {
@@ -498,16 +571,24 @@
 				EE2A0D692A6D3A38003114F6 /* GenderView.swift in Sources */,
 				EE2A0D5D2A6D3A24003114F6 /* SplashModel.swift in Sources */,
 				EE2A0D762A6D3A64003114F6 /* MainTabView.swift in Sources */,
+				EED152F42A765A530066783F /* ReminderCoordinator.swift in Sources */,
 				EE2A0D682A6D3A38003114F6 /* SetupAccountView.swift in Sources */,
 				EE2A0D6C2A6D3A38003114F6 /* GoalView.swift in Sources */,
+				EEDE5AB92A73F25A005BCE35 /* FoodView.swift in Sources */,
 				EE939A562A6D4F9200FD297F /* AppCoordinator.swift in Sources */,
+				EED152F22A76588C0066783F /* AddTodoGroupViewModel.swift in Sources */,
 				EE2A0D6D2A6D3A38003114F6 /* SetupAccountViewModel.swift in Sources */,
 				EEE6E83D2A6D33740062A5F3 /* Health_Tracker.xcdatamodeld in Sources */,
+				EEDE5AB72A73F246005BCE35 /* SleepView.swift in Sources */,
 				EE9522392A6D618800B8DC4A /* AppMainView.swift in Sources */,
+				EE8B290C2A75497300963176 /* AddTodoGroupView.swift in Sources */,
+				EEEC5F982A73FD3B00A1E376 /* cornerRadius.swift in Sources */,
 				EE6A0CA12A6D36280069C1A9 /* UIColors.Generated.swift in Sources */,
+				EEDE5AB52A73F232005BCE35 /* HomeView.swift in Sources */,
 				EE2A0D732A6D3A43003114F6 /* UserGoals.swift in Sources */,
 				EEE6E83A2A6D33740062A5F3 /* Persistence.swift in Sources */,
 				EE2A0D4E2A6D39A0003114F6 /* ImagePicker.swift in Sources */,
+				EEDE5AB32A73F21F005BCE35 /* ActivitiesView.swift in Sources */,
 				EE2A0D6E2A6D3A38003114F6 /* BirdthDateView.swift in Sources */,
 				EE2A0D742A6D3A43003114F6 /* Genders.swift in Sources */,
 				EE6A0CA02A6D36280069C1A9 /* UIImage.Generated.swift in Sources */,
@@ -517,7 +598,10 @@
 				EE6A0CA92A6D36740069C1A9 /* UIFont+Style.swift in Sources */,
 				EEE6E8312A6D33740062A5F3 /* Health_TrackerApp.swift in Sources */,
 				EE2A0D522A6D39BE003114F6 /* CircularProgressView.swift in Sources */,
+				EEEC5F962A73FD2300A1E376 /* RoundedCourner.swift in Sources */,
+				EED152F02A7656690066783F /* textfield+applyStyle.swift in Sources */,
 				EE2A0D562A6D39DC003114F6 /* onAnimationCompleted.swift in Sources */,
+				EEDE5AB12A73F1F6005BCE35 /* ReminderView.swift in Sources */,
 				EE2A0D5E2A6D3A24003114F6 /* SplashView.swift in Sources */,
 				EE2A0D6A2A6D3A38003114F6 /* ProfileImageView.swift in Sources */,
 				EE2A0D542A6D39D0003114F6 /* TabBarCurveShape.swift in Sources */,
@@ -705,7 +789,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Health-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Health-Tracke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

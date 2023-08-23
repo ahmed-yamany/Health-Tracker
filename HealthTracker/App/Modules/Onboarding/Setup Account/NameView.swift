@@ -13,7 +13,7 @@ struct NameView: View {
     @EnvironmentObject var viewModel: SetupAccountViewModel
     @Injected(\.onboardingCoordinator) var coordinator: OnboardingCoordinator
     @FocusState private var nameTextFieldFocused: Bool
-
+    
     var body: some View {
         NavigationView {
             SetupAccountView(title: L10n.Name.title, coloredTitle: L10n.Name.Title.colored, subtitle: L10n.Name.subtitle) {

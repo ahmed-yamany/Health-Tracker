@@ -8,7 +8,11 @@
 import SwiftUI
 
 enum MainTabViewTabs: String, CaseIterable {
-    case home, saved, plus, notification, profile
+    case food = "fork.knife.circle"
+    case sleep = "powersleep"
+    case home = "house"
+    case activities = "dumbbell.fill"
+    case reminder = "clock"
 }
 
 struct MainTabView: View {
@@ -18,20 +22,20 @@ struct MainTabView: View {
     }
     var body: some View {
             TabView(selection: $selectedTab) {
-                Text("Home")
+               FoodView()
+                    .tag(MainTabViewTabs.food)
+                
+                SleepView()
+                    .tag(MainTabViewTabs.sleep)
+                
+                HomeView()
                     .tag(MainTabViewTabs.home)
-                Text("Saved")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.blue)
-                    .tag(MainTabViewTabs.saved)
-                Text("Notifications")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.yellow)
-                    .tag(MainTabViewTabs.notification)
-                Text("Profile")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.red)
-                    .tag(MainTabViewTabs.profile)
+                
+                ActivitiesView()
+                    .tag(MainTabViewTabs.activities)
+                
+                ReminderView()
+                    .tag(MainTabViewTabs.reminder)
             }
             .overlay(alignment: .bottom) {
                 TabBarView(selectedTab: $selectedTab)
@@ -48,34 +52,37 @@ struct MainTabView_Previews: PreviewProvider {
 struct TabBarView: View {
     @Binding var selectedTab: MainTabViewTabs
     @State private var xAxis: CGFloat = 0
+    @Namespace var namespace
+    
     var body: some View {
         HStack {
             ForEach(MainTabViewTabs.allCases, id: \.self) { tab in
                 GeometryReader { reader in
                     Button {
-                        if tab == .plus {
-
-                        } else {
+                        withAnimation {
                             selectedTab = tab
                         }
                     } label: {
-                        if tab != .plus {
-                            Image("icon\(tab.rawValue.capitalized)")
+                        if tab != .home {
+                            Image(systemName: tab.rawValue)
+                                .font(Font.system(size: 22))
+                                .foregroundColor(tab == selectedTab ? Color(.colors.primaryColor) : Color(.colors.secondaryTextColor))
                                 .frame(maxWidth: .infinity)
                                 .padding(.top)
                         } else {
-                            Image(systemName: "plus")
-//                                .fontWeight(.bold)
+                            Image(systemName: "house")
+                                .font(Font.largeBold)
                                 .frame(width: 55, height: 55)
                                 .frame(maxWidth: .infinity)
                                 .foregroundColor(.white)
-                                .background { Circle().foregroundColor(.primary) }
+                                .background { Circle().foregroundColor(Color(.colors.primaryColor)) }
                                 .onAppear {
                                     xAxis = reader.frame(in: .global).midX
                                 }
                         }
                     }
-                    .offset(y: tab == .plus ? -25 : 0)
+                    .offset(y: tab == .home ? -25 : 0)
+                    .offset(y: tab == selectedTab && tab != .home ? -10 : 0)
                 }
             }
         }

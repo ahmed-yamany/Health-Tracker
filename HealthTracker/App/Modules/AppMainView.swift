@@ -14,6 +14,7 @@ struct AppMainView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \User.id, ascending: true)],
         animation: .default) private var users: FetchedResults<User>
     
+    
     var body: some View {
         if let _ = users.last {
             MainTabView()

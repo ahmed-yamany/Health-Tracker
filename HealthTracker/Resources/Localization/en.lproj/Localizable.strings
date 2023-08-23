@@ -14,8 +14,8 @@
 "splash.gym.subtitle" = "You should Go The Gym today";
 "splash.sleeping.title" = "Night Island";
 "splash.sleeping.subtitle" = "Explore the new king of sleep.";
-"splash.reminder.title" = "Set your Reminder";
-"splash.reminder.subtitle" = "You should manage your time";
+"splash.reminder.title" = "Manage your tasks";
+"splash.reminder.subtitle" = "organize, plan, and collaborate on tasks";
 "splash.button.title" = "Start";
 
 // MARK: - Name
@@ -46,4 +46,15 @@
 "profileImage.title" = "Select ";
 "profileImage.title.colored" = "Profile Image";
 "profileImage.subtitle" = "";
+
+// MARK: - TabView
+// Reminder
+"tabview.reminder.title.youHave" = "You have";
+"tabview.reminder.title.tasks" = "Tasks";
+"tabview.reminder.title.today" = "today";
+"tabview.reminder.search.placeholder" = "Search tasks";
+"tabview.reminder.addTodoGroup.navigationtitle" = "Add Todo Group";
+"tabview.reminder.addTodoGroup.saveButton" = "Save";
+"tabview.reminder.addTodoGroup.textfiled.title" = "Title";
+"tabview.reminder.addTodoGroup.textfiled.placeholder" = "Enter Todo Group Title";
 
